@@ -1,0 +1,35 @@
+const tabData=[
+    {
+        title:"Home",
+        id:"t1",
+        iconName:"home",
+        action:"Products",
+        activeColor:"blue",
+        inactiveColor:"red"
+    },
+    {
+        title:"Wishlist",
+        id:"t2",
+        iconName:"heart",
+        action:"WishList",
+        activeColor:"blue",
+        inactiveColor:"red"
+    },
+    {
+        title:"Basket",
+        id:"t3",
+        iconName:"ios-cart",
+        action:"Basket",
+        activeColor:"blue",
+        inactiveColor:"red"
+    },
+    {
+        title:"Profile",
+        id:"t4",
+        iconName:"person",
+        action:"Profile",
+        activeColor:"blue",
+        inactiveColor:"red"
+    }
+]
+export default tabData;
